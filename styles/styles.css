@@ -7,3 +7,87 @@ body{
     padding: 0;
     font-family: "Work Sans", sans-serif;
 }
+
+/* Shared Style */
+
+.display-flex{
+    display: flex;
+}
+
+.bg-primary{
+    background: rgba(255, 144, 14, 0.1);
+}
+.dark-1{
+    color: rgb(19, 19, 19);
+}
+.dark-2{
+    color: rgb(66, 66, 66);
+}
+.dark-3{
+    color: rgb(114, 114, 114);
+}
+.btn-primary{
+    width: 180px;
+    height: 64px;
+    border:none;
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    color: white;
+    font-size: 1.25rem;
+}
+
+/* Navbar style */
+.navbar{
+    
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-items{
+    list-style: none;
+    margin-right: 10px;
+
+}
+.nav-link{
+    text-decoration: none;
+}
+
+.brand{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
+/* Banner style */
+.navbar , .banner{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.banner-content{
+    max-width: 862px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.banner-img{
+    width: 100%;
+}
+
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+
+/* Responsive style */
+
+@media screen and (max-width:576px) {
+    .navbar , .nav-link{
+        flex-direction: column;
+    }
+    
+}
+
+
